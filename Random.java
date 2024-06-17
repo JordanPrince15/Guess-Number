@@ -1,9 +1,9 @@
 import java.util.Scanner; // Import the scanner classs
 
 class Random{ // This is the random class
-    public static void main(String[] args) { // Initialize th3e class
+    public static void main(String[] args) { // Initialize the class
         @SuppressWarnings("resource")
-        Scanner userInput = new Scanner(System.in);
+        Scanner userInput = new Scanner(System.in); // This initializes the user input 
         System.out.println("Enter a random number");
 
         String RandomNum = userInput.nextLine();
